@@ -18,4 +18,20 @@ $('a[href^="#"]').click(function () {
 $("form").submit(function(e) {
     e.preventDefault();
 });
-$('form').validate();
+
+
+$( '.project-wrapper')
+.mouseenter(function() {
+
+  console.log('na obiekcie');
+  $(this).find('img').css( "opacity", "0.3" );
+  $(this).find('.project-info').css('display','block');
+})
+.mouseleave(function() {
+  $(this).find('img').css( "opacity", "1" );
+    $(this).find('.project-info').css('display','none')
+    console.log("zdjales");
+});
+
+
+ 
