@@ -1,9 +1,12 @@
 let i = 0;
+
 $('.bar').click(function () {
 
   var x = $('.ul-container').toggle();
 
 })
+
+ 
 
 
 $('a[href^="#"]').click(function () {
@@ -32,6 +35,8 @@ $( '.project-wrapper')
     $(this).find('.project-info').css('display','none')
     console.log("zdjales");
 });
+
+
 
 
  
