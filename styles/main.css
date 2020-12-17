@@ -127,7 +127,7 @@ html body #tools .my-tools span {
 }
 html body #tools .my-tools::after {
   content: "";
-  width: 100px;
+  width: 20%;
   height: 3px;
   background-color: black;
   position: absolute;
@@ -136,7 +136,7 @@ html body #tools .my-tools::after {
 }
 html body #tools .my-tools::before {
   content: "";
-  width: 100px;
+  width: 20%;
   top: 52%;
   right: 110%;
   height: 3px;
@@ -165,6 +165,20 @@ html body #tools .img-jquery {
   height: 96px;
   vertical-align: bottom;
   margin: 20px 30px 20px 30px;
+}
+html body #contact {
+  color: white;
+  background-color: #2E4756;
+}
+html body #contact i {
+  margin-right: 10px;
+}
+html body #contact a {
+  text-decoration: none;
+}
+html body #contact p {
+  color: #bf949d;
+  font-weight: 500;
 }
 html body nav {
   position: absolute;
